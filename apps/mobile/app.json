@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Inn",
+    "slug": "inn",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "inn",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.inn.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#C8F53A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.inn.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "color": "#C8F53A"
+        }
+      ]
+    ]
+  }
+}
